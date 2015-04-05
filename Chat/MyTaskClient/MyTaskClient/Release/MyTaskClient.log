@@ -1,0 +1,21 @@
+﻿Сборка начата 06.04.2015 0:57:38.
+     1>Проект "F:\загрузки\Projects\MyTaskClient\MyTaskClient\MyTaskClient.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\программы\VS2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BaseConnect.cpp Client.cpp EditWindow.cpp Source.cpp
+         BaseConnect.cpp
+         Client.cpp
+         EditWindow.cpp
+         Source.cpp
+       Link:
+         D:\программы\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\загрузки\Projects\MyTaskClient\Release\MyTaskClient.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\загрузки\Projects\MyTaskClient\Release\MyTaskClient.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\загрузки\Projects\MyTaskClient\Release\MyTaskClient.lib" /MACHINE:X86 /SAFESEH Release\BaseConnect.obj
+         Release\Client.obj
+         Release\EditWindow.obj
+         Release\Source.obj
+         Создание кода
+         Создание кода завершено
+         MyTaskClient.vcxproj -> F:\загрузки\Projects\MyTaskClient\Release\MyTaskClient.exe
+     1>Сборка проекта "F:\загрузки\Projects\MyTaskClient\MyTaskClient\MyTaskClient.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:08.80

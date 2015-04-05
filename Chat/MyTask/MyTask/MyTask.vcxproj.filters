@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="BaseConnect.cpp">
+      <Filter>Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Connection</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseConnect.hpp">
+      <Filter>Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.hpp">
+      <Filter>Connection</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Connection">
+      <UniqueIdentifier>{99c83810-9de3-4d30-9fa5-b98cae87c8ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

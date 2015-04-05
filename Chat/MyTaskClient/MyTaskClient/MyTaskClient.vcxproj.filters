@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="BaseConnect.cpp">
+      <Filter>Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="EditWindow.cpp">
+      <Filter>WindowClass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseConnect.hpp">
+      <Filter>Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.hpp">
+      <Filter>Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="EditWindow.hpp">
+      <Filter>WindowClass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Connection">
+      <UniqueIdentifier>{94668321-287e-492e-813c-3c0d5ab049f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowClass">
+      <UniqueIdentifier>{e827d95a-13e2-4ac4-b22c-1bd99b7167fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
